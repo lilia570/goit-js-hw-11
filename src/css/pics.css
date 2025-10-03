@@ -1,4 +1,4 @@
-.search-form {
+.form {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -6,7 +6,7 @@
   gap: 8px;
 }
 
-.search-form input[type='text'] {
+.form input[type='text'] {
   border: 1px solid #808080;
   border-radius: 4px;
   width: 272px;
@@ -16,16 +16,16 @@
   transition: border-color 300ms ease-in-out;
 }
 
-.search-form input[type='text']:hover {
+.form input[type='text']:hover {
   border-color: black;
 }
 
-.search-form input[type='text']:focus {
+.form input[type='text']:focus {
   border-color: #4e75ff;
   outline: none;
 }
 
-.search-form button[type='submit'] {
+.form button[type='submit'] {
   cursor: pointer;
   border: none;
   border-radius: 8px;
@@ -39,8 +39,8 @@
   transition: background-color 300ms ease-in-out;
 }
 
-.search-form button[type='submit']:hover,
-.search-form button[type='submit']:focus {
+.form button[type='submit']:hover,
+.form button[type='submit']:focus {
   background-color: #6c8cff;
 }
 
