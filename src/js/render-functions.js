@@ -1,6 +1,6 @@
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
-
+ 
 const loader = document.querySelector('.loading-box');
 const lightbox = new SimpleLightbox('.image-card a', {
   captionsData: 'alt',
